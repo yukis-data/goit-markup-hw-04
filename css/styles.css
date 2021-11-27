@@ -383,27 +383,26 @@ li > .nav-item {
 .logo-list {
   display: flex;
   width: 1170px;
-  height: 184px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  height: 92px;
 }
 
-.logo-list > .logo-line:not(:last-child) {
+.logo-list > li:not(:last-child) {
   margin-right: 30px;
 }
 
-.logo-line {
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid var(--color-icons);
   color: var(--color-icons);
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
-.logo-line:hover,
-.logo-line:focus {
+.logo-link:hover,
+.logo-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
