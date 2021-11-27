@@ -384,6 +384,9 @@ li > .nav-item {
   display: flex;
   width: 1170px;
   height: 184px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .logo-list > .logo-line:not(:last-child) {
