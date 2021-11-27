@@ -432,14 +432,16 @@ li > .nav-item {
   font-weight: 700;
 }
 
-.footer-contacts {
+li > .footer-contacts {
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .address {
   margin-top: 20px;
+  margin-bottom: 9px;
   color: var(--accent-text-color);
   font-style: normal;
   font-size: 14px;
