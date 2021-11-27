@@ -382,8 +382,8 @@ li > .nav-item {
 
 .logo-list {
   display: flex;
-
-  height: 92px;
+  width: 1170px;
+  height: 184px;
 }
 
 .logo-list > .logo-line:not(:last-child) {
